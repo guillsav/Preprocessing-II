@@ -187,11 +187,9 @@ header .header nav {
   justify-content: flex-end;
   width: 70%;
 }
-@media (min-width: 850px) {
-  header .header nav .current {
-    background: #ffebcd;
-    border-radius: 3px;
-  }
+header .header nav .current {
+  background: #ffebcd;
+  border-radius: 3px;
 }
 header .header nav a {
   font-size: 1.6rem;
@@ -212,7 +210,7 @@ header .header nav a {
 @media (max-width: 500px) {
   header .header nav a {
     margin-top: 15px;
-    padding: 0;
+    padding: 5px 5px;
   }
 }
 @media (max-width: 500px) {
@@ -370,9 +368,16 @@ header .header nav a {
   font-size: 1.6rem;
   margin-right: 10%;
   height: 40px;
+  transition: background 0.2s;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 500px) {
+  .home .content-pick .destination .btn:hover {
+    background: gold;
+    color: #3c3c3c;
+  }
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {

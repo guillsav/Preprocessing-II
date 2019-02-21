@@ -8,7 +8,15 @@
   font-size: 1.6rem;
   margin-right: 10%;
   height: 40px;
+  transition: background 0.2s;
   .center();
+
+  @media (min-width: 500px) {
+    &:hover {
+      background: gold;
+      color: #3c3c3c;
+    }
+  }
 
   @media (max-width: 500px) {
     width: 100%;
