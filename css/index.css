@@ -168,6 +168,43 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  padding-bottom: 20px;
+  border-bottom: 2px dashed #c0c0c0;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-right: 2%;
+}
+header .header nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+}
+header .header nav .current {
+  background: rgba(149, 255, 0, 0.4);
+  border-radius: 3px;
+}
+header .header nav a {
+  font-size: 1.6rem;
+  color: #232323;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 0 20px;
+  transition: background 0.2s;
+}
+header .header nav a:hover {
+  background: gold;
+  color: #292929;
+  border-radius: 3px;
+  box-shadow: 0px 2px 2px #eaeaea;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
