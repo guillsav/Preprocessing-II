@@ -32,3 +32,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.keyframes(@name; @arguments) {
+  @keyframes @name {
+    @arguments();
+  }
+}
+
+.animation(@arguments) {
+  animation: @arguments;
+}

@@ -254,6 +254,15 @@ header .header nav a {
 }
 .home .content-welcome h2 {
   margin-top: 10px;
+  animation: fade-in 1.5s ease forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
 }
 @media (max-width: 500px) {
   .home .content-welcome {
@@ -280,6 +289,17 @@ header .header nav a {
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
+  animation: reveal 1.2s ease forwards;
+}
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    margin-top: 100px;
+  }
+  100% {
+    opacity: 100;
+    margin-top: 0;
+  }
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
