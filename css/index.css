@@ -252,6 +252,9 @@ header .header nav a {
 .home .content-welcome img {
   margin-bottom: 20px;
 }
+.home .content-welcome h2 {
+  margin-top: 10px;
+}
 @media (max-width: 500px) {
   .home .content-welcome {
     flex-direction: column;
